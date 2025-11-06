@@ -1,0 +1,45 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Curso de Inglés</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Panel de Administrador</h1>
+
+        <div id="admin-panel">
+            <h2>Añadir Nueva Sección</h2>
+            <input type="text" id="new-section-name" placeholder="Nombre de la nueva sección">
+            <button id="add-section">Añadir Sección</button>
+
+            <hr>
+
+            <h2>Resetear Datos</h2>
+            <button id="reset-data">Resetear Todas las Secciones y Palabras</button>
+
+            <hr>
+
+            <hr>
+
+            <h2>Editar Palabras Existentes</h2>
+            <div id="word-list"></div>
+
+            <hr>
+
+            <h2>Añadir/Editar Palabra</h2>
+            <select id="section-select"></select>
+            <input type="text" id="new-word" placeholder="Palabra (en inglés)">
+            <input type="text" id="new-image-url" placeholder="URL de la imagen">
+            <input type="text" id="new-audio-url" placeholder="URL del audio (opcional)">
+            <button id="add-word">Añadir Nueva Palabra</button>
+            <button id="save-changes" style="display: none;">Guardar Cambios</button>
+            <button id="cancel-edit" style="display: none;">Cancelar Edición</button>
+        </div>
+
+        <a href="index.html">Volver al curso</a>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>
