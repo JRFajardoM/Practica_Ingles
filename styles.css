@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+}
+
+.container {
+    text-align: center;
+}
+
+#card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#textInput {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#textInput.correct {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    font-size: 1.2em;
+    transform: scale(1.1);
+}
+
+#textInput.incorrect {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#playSound {
+    background-color: #007bff;
+    color: white;
+}
+
+#nextWord {
+    background-color: #28a745;
+    color: white;
+    margin-top: 20px;
+}
